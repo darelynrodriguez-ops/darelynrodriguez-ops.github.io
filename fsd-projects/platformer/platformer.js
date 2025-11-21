@@ -38,11 +38,15 @@ $(function () {
 createPlatform(250,400,130,10,"black");
 
     // TODO 3 - Create Collectables
-
-
+    createCollectable("database", 400,500)
+    createCollectable("database", 300,365)
+    createCollectable("database", 250,620)
 
     
     // TODO 4 - Create Cannons
+    createCannon("left", 400,900)
+    createCannon("top", 450,900)
+    createCannon("right", 300,900)
 
 
     
